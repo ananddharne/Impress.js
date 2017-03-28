@@ -21,8 +21,8 @@
     <meta charset="utf-8" />
     <title>Classic Slides with impress.js | Simple example impress.js slide show | by Henrik Ingo @henrikingo</title>
     
-    <meta name="description" content="Simple example impress.js slide show" />
-    <meta name="author" content="Henrik Ingo" />
+   <meta name="description" content="What I learned in the past few days! " />
+    <meta name="author" content="Anand Dharne" />
     <!--        
         Impress.js doesn't depend on any external stylesheets. It adds all of the styles it needs for the
         presentation to work. 
@@ -102,10 +102,11 @@
         your cooler impress.js presentations.
     -->
     <div class="step slide title" data-x="-1000" data-y="-1500">
-        <h1>Example Presentation: <br />
-            Classic Slides</h1>
-        <h2>Henrik Ingo</h2>
-        <h3>2015</h3>
+        <h1>Hi Camp Systems!   </h1> <br> <br> <br>  
+        <p> This is Demonstration of what I learnt and technologies that I brushed up in the past few days using a JS library called Impress.js</p>
+        <br><br><br>
+
+        <h3> - Anand Dharne</h3>
 
         <div class="notes">
         Any element with the class="notes" will not be displayed. This can
@@ -117,15 +118,15 @@
     <div class="step slide" data-rel-x="1000" data-rel-y="0">
         <h1>Table of Contents</h1>
         <ul>
-            <li><a href="#step-1">A title slide</a></li>
-            <li><a href="#step-2">Table of Contents</a></li>
-            <li><a href="#step-3">Text slide</a></li>
-            <li><a href="#step-4">Bullet points</a></li>
-            <li><a href="#step-5">Blockquote &amp; image</a></li>
-            <li><a href="#step-6">More basic text styles</a></li>
-            <li><a href="#step-7">Motion effects 101</a></li>
-            <li><a href="#addons">Add-ons</a></li>
-            <li><a href="#moreinfo">More info</a></li>
+            <li><a href="#step-3">Functional Programming using Jvascript</a></li>
+            <li><a href="#step-4">Revise Angular 1,learn Angular 2 (Typescript) and Node.js </a></li>
+            <li><a href="#step-3">Understanding of Dev-ops</a></li>
+            <li><a href="#step-4">Continous Integration? </a></li>
+            <li><a href="#step-5">My understanding of Octopus!</a></li>
+            <li><a href="#step-6">Teamcity CI</a></li>
+            <li><a href="#step-7">Highlight.js 101</a></li>
+            <li><a href="#addons">Mermaid</a></li>
+            <li><a href="#moreinfo">Powershell</a></li>
         </ul>
 
         <div class="notes">
@@ -139,10 +140,13 @@
     </div>
 
     <div class="step slide">
-        <h1>A slide with text</h1>
-        <p>This slide has a few paragraphs <br />(p element) of normal text.</p>
-        <p>Personally I like centered or even justified text, as it looks less boring. This can of course be set in <a href="css/classic-slides.css">the css file</a>.</p>
-        <p>I really like the style on links in these presentations. I modified the border to be beveled, but it's mostly from <a href="http://henrikingo.github.io/impress.js/">@bartaz' original demo</a>. <a href="https://twitter.com/bartaz">@bartaz</a> is the creator of impress.js.</p>
+        <h1>Functional Programming is fun</h1>
+        <ul>
+        <li> Understanding of higher order functions like map, reduce, filter and importance of closures </li>
+        <li>What are callback functions and how can you make your life easier by using functions as arguments?</li>
+        <li>A very interesting resource I found on <a href="https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84"> FunFunfunction</a></li>
+        <li>Solid understanding of recursion, scope and closures</li>
+        
 
         <div class="notes">
          In this slide, we don't even specify the relative position, rather
@@ -152,15 +156,16 @@
     </div>
 
     <div class="step slide">
-        <h1>Bullet points</h1>
+         <h1>Angular Node.js TypeScript</h1>
         <ul>
-            <li>A slide with bullet points. This is the first point.</li>
-            <li>Second point</li>
-            <li>Third point. Under this point we also have some sub-bullets:
-                <ul>
-                    <li>Sub-bullet 1</li>
-                    <li>Sub-bullet 2</li>
-                </ul>
+            <li>Improved the portfolio built on Angular 1 <a href="https://ananddharne.github.io/"> Visit me </a></li>
+            <li>Revised concepts like Routing, directives, MVC, Dependency Injection  </li>
+            <li>Learnt a new topic - Angular services! Understood what it is to write a recipe and tried to implement a factory recipe. It doesn't work perfectly.</li>
+            <li> Its a work in progress! <a href="https://ananddharne.github.io/restaurant"> Restaurant template </a> </li>
+               
+                <li>Hooked up my Mongo with  Node and hosted the portfolio on local host</li>
+           
+                
             </li>
         </ul>
 
@@ -175,14 +180,14 @@
         element should be rotated by 30 degrees clockwise.        
     -->
     <div class="step slide" data-rel-x="1100" data-rel-y="300" data-rotate="30">
-        <h1>A blockquote &amp; image</h1>
-        <img src="images/3476636111_c551295ca4_b.jpg" 
-             alt="Mother Teresa holding a newborn baby" 
+        <h1>Keep digging!</h1>
+        <img src="images/code.jpg" 
+             alt="Coding" 
              class="right"/>
         <blockquote>
-        Spread love everywhere you go. <br />Let no one ever come to you without leaving happier.
-        <p style="text-align: right">Mother Teresa</p>
-        <p class="left bottom"><small>Image credit: <a href="https://www.flickr.com/photos/peta-de-aztlan/3476636111/">Peta_de_Aztlan</a>@Flickr. CC-BY 2.0</small></p>
+        Code Code and keep on coding
+        <p style="text-align: right">Trying to write unit tests using Karma runner!</p>
+       
         </blockquote>
 
         <div class="notes">
@@ -190,20 +195,19 @@
     </div>
 
     <div class="step slide" data-rel-x="800" data-rel-y="800" data-rotate="60">
-        <h1>More text styles</h1>
-        <p>As usual, use <em>em</em> to emphasize, <br />
-           <strong>strong</strong> for strong, <u>u</u> for underline,<br />
-           <strike>strike</strike> for strikethrough and <q>q for inline quotations</q>.</p>
-           
-        <p>If you're a software engineer like me, you will often use the 
-           <code>&lt;code&gt;</code> tag for monospaced inline text.</p>
+        <h3>How I understood and implemented continous integration!</h3>
+        <li>Developers check out code into their private workspaces.</li>
+        <li>When they are done with it they commit the changes to the shared repository (Version Control Repository).</li>
+        <li>The CI server monitors the repository and checks out changes when they occur.</li>
+        <li>The CI server will now inform the team of the successful build.</li>
+        <li>This process keeps on repeating.</li>
 
         <div class="notes">
         </div>
     </div>
 
     <div class="step slide" data-rel-x="300" data-rel-y="1100" data-rotate="90">
-        <h1>Motion effects 101</h1>
+        <h1>Motion effects for fun to explore</h1>
         <p>Items on the slide can</p>
         <p class="fly-in fly-out">Fly in</p>
         <p class="fade-in fade-out" style="transition-delay: 2s">Fade in</p>
@@ -233,7 +237,14 @@
     </div>
 
     <div id="addons" class="step slide title" data-rel-x="-300" data-rel-y="1100" data-rotate="120">
-        <h2>Add-ons</h2>
+        <li></li>> Continous Deployments using Octopus</li><br><br>
+
+<li>Basically an Octopus is just a server with "tentacles" to integrate other cloud servers and deployment can be done using the main Octopus server</li>
+        <li>Developers commit their code into your existing source control system</li>
+        <li>Your CI/build server compiles the code and runs unit tests</li>
+        <li>The CI server will now inform the team of the successful build.</li>
+        <li>Your application is packaged into a NuGet package.</li>
+
         <div class="notes">
         <p>This version of impress.js includes several add-ons, striving to make this a
            full featured presentation app.</p>
@@ -241,16 +252,14 @@
     </div>
 
     <div class="step slide" data-rel-x="-800" data-rel-y="800" data-rotate="150">
-        <h1>Impress.js plugins</h1>
+        <h1>Continous integration using Teamcity and Jenkins</h1>
         <ul>
-        <li>A new <a href="https://github.com/henrikingo/impress.js/blob/myfork/src/plugins/README.md">plugin framework</a> allows for rich extensibility,
-            without bloating the core rendering library.
-            <ul>
-            <li>Press 'P' to open a presenter console.</li>
+        <li>Personally used Jenkins for a web based E-commerce app to handle payment systems
+            
+            <li>Teamcity is just like Jenkins but since its proprietary has lesser configuration and not a pain to implement. (Dying to use!)</li>
             <li>When you move the mouse, navigation controls are visible on your bottom left</li>
-            <li>Autoplay makes the slides advance after a timeout</li>
-            <li>Relative positioning plugin is often a more convenient way to position your slides when editing. (<a href="https://github.com/henrikingo/impress.js/blob/myfork/examples/classic-slides/index.html">See html for this presentation.</a>)</li>
-            </ul>
+            
+        
         </li>
         </ul>
         <div class="notes">
@@ -262,7 +271,7 @@
     </div>
 
     <div class="step slide" data-rel-x="-1100" data-rel-y="300" data-rotate="180">
-        <h1>Highlight.js</h1>
+        <h2>Highlight.js coding to understand Impress.js</h2>
         <pre><code>
         // `init` API function that initializes (and runs) the presentation.
         var init = function () {
@@ -311,7 +320,7 @@
         </div>
     </div>
 
-    <div id="markdown" class="step slide markdown" data-rel-x="-800" data-rel-y="-800" data-rotate="240">
+    <!-- <div id="markdown" class="step slide markdown" data-rel-x="-800" data-rel-y="-800" data-rotate="240">
 # Markdown.js
         
 * [Markdown.js](https://github.com/evilstreak/markdown-js) integration: for authors in a hurry!
@@ -332,7 +341,7 @@
         </ul>
         <h2>Acme Inc Quarterly Profits</h2>
 
-        <!-- Improvised bar graph of divs, to avoid copying something like NVD3 into the repo. -->
+        <!-- Improvised bar graph of divs, to avoid copying something like NVD3 into the repo.
         <div id="acme-graph">
             <div id="acme-graph-bars">
                 <div id="acme-graph-q1"></div>
@@ -351,7 +360,7 @@
         </table>
         <div class="notes">
         </div>
-    </div>
+    </div> --> -->
     <script type="text/javascript">
         var acmeDrawGraph = function() {
             var profits = {};
@@ -367,7 +376,6 @@
             // Q3-Q4: get input.value
             profits['q3'] = document.getElementById('acme-q3').value;
             profits['q4'] = document.getElementById('acme-q4').value;
-
             // Convert all to numeric value, and remember max value for scaling purposes.
             var max = profits['q1'];
             for ( var q in profits ) {
@@ -394,25 +402,15 @@
         to this step will rotate twice around it's axis, we give the transition a bit more time here.
     -->
     <div id="moreinfo" class="step slide" data-x="2020" data-y="700" data-rotate="720" data-transition-duration="2000">
-        <h1>More info</h1>
+        <h2>Powershell and Devops culture imbibement</h2>
         <ul>
-        <li><a href="https://github.com/henrikingo/impress.js/blob/myfork/DOCUMENTATION.md">DOCUMENTATION.md</a> is the API reference.
+        <li>Since Powershell is a scripting language and I had never used it I learned the basics of it and looks like its going to be pretty easy to catch up 
         </li>
-        <li><a href="https://github.com/henrikingo/impress.js/blob/myfork/examples/classic-slides/index.html">Source of this presentation itself</a> is commented</li>
-        <li><a href="http://henrikingo.github.io/impress.js/">Advanced Impress.js demo</a> by <a href="http://twitter.com/bartaz">@bartaz</a>
-            <ul>
-            <li>Again, the <a href="http://github.com/henrikingo/impress.js/blob/myfork/index.html">html</a> 
-                and <a href="https://github.com/henrikingo/impress.js/blob/myfork/css/impress-demo.css">css</a> source is well commented.</li>
-            </ul>
+        <li>Pipelining is very important! ($_ and |) </li>
+        <li>Gained an understanding of how to use Powershell in .NET
         </li>
-        <li>More examples and demos:
-            <ul>
-            <li><a href="https://github.com/henrikingo/impress.js/tree/myfork/examples">examples/</a> in this repository</li>
-            <li><a href="https://github.com/impress/impress.js/wiki/Examples-and-demos">on the impress.js wiki</a></li>
-            </ul>
-        </li>
-        <li>Check out <a href="https://github.com/henrikingo/impressionist">Impressionist</a>: a 3D GUI to create impress.js presentations</li>
-        </ul>
+        <h3> Understood what is dev-ops and how different it is from Agile processes and why it is better!</h3>
+       </ul>
 
         <div class="notes">
         </div>
@@ -442,15 +440,15 @@
 <!-- Extra modules
      Load highlight.js, mermaid.js and markdown.js from extras.
      If you're curious about details, these are initialized in src/plugins/extras/extras.js -->
-<script type="text/javascript" src="../../extras/highlight/highlight.pack.js"></script>
-<script type="text/javascript" src="../../extras/mermaid/mermaid.min.js"></script>
-<script type="text/javascript" src="../../extras/markdown/markdown.js"></script>
-<script type="text/javascript" src="../../extras/impress-console/js/impressConsole.js"></script>
+<script type="text/javascript" src="/extras/highlight/highlight.pack.js"></script>
+<script type="text/javascript" src="/extras/mermaid/mermaid.min.js"></script>
+<script type="text/javascript" src="/extras/markdown/markdown.js"></script>
+<script type="text/javascript" src="/extras/impress-console/js/impressConsole.js"></script>
 <script type="text/javascript">
   // For impressConsole, we unfortunately must also set the path to a mandatory css file
   // which is relative to this html file.
   // See https://github.com/regebro/impress-console/issues/19
-  var impressConsoleCss = '../../extras/impress-console/css/impressConsole.css';
+  var impressConsoleCss = '/extras/impress-console/css/impressConsole.css';
 </script>
 
 
@@ -459,7 +457,7 @@
     You also need to call a `impress().init()` function to initialize impress.js presentation.
     And you should do it in the end of your document. 
 -->
-<script type="text/javascript" src="../../js/impress.js"></script>
+<script type="text/javascript" src="/js/impress.js"></script>
 <script>impress().init();</script>
 
 </body>
